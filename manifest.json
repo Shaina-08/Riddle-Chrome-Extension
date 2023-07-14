@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Riddle World",
+  "description": "Riddle World is a browser add-on that provides a collection of riddles and puzzles for entertainment and mental stimulation while browsing the web.",
+  "version": "0.0.1",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "shaina-low-resolution-logo-color-on-transparent-background (1).png",
+      "48": "shaina-low-resolution-logo-color-on-transparent-background (1).png",
+      "128": "shaina-low-resolution-logo-color-on-transparent-background (1).png"
+    }
+  }
+}

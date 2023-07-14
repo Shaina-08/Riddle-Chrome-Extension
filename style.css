@@ -1,0 +1,64 @@
+p {
+    padding:10px;
+    font-size: 20px;
+    font-family: 'Ysabeau SC', sans-serif;
+    min-width: 100px;
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: rgb(214, 67, 175) 0px 7px 29px 0px;
+    /* background: linear-gradient(to right, rgb(rgb(119, 119, 65)163), yellow, rgb(131, 235, 131)); */
+    /* background: linear-gradient(to right, rgb(86, 86, 194), rgb(237, 237, 114), green); */
+}   
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem;
+}
+
+.container-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.3rem;
+}
+
+.btn{
+
+
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #14142a;
+  cursor: pointer;
+  border: 1px solid;
+  padding: 0.25em 0.5em;
+  /* box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px; */
+  box-shadow: rgb(14, 146, 21) 0px 7px 29px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: rgb(103, 201, 103);
+
+
+
+}
+.btn:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }}
